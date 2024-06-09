@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BC Diary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+     <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">BC Diary</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#journey" class="navbar__links" id="journey-page">Journey</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#letter" class="button" id="letter" onclick="document.location='https://www.youtube.com'">Letter</a>
+                </li>
+            </ul>
+        </div>
+     </nav>
+
+     <!-- Hero Section -->
+     <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">Hi There <span>Wifey</span></h1>
+            <p class="hero__description">Take a tour</p>
+            <button class="main__btn"><a href="#">Explore</a></button>
+        </div>
+     </div>
+
+     <!-- About Section -->
+      <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img-container">
+                <div class="main__img--card">
+                    <img src="IMG_3482 Copy.jpeg" alt="Photo of Benedictus Juve & Christine Wijaya" class="main__img--photo">
+                </div>
+            </div>
+            <div class="main__content">
+                <h1>Who we are</h1>
+                <h2>Benedictus Juve & Christine Wijaya</h2>
+                <p>We are unofficially husband & wife</p>
+                <button class="main__btn"><a href="#" onclick="document.location='https://www.youtube.com'">More about us</a></button>
+            </div>
+        </div>
+      </div>
+
+      <!-- Journey Section -->
+       <div class="journey" id="journey">
+        <h1>Our Journey</h1>
+        <div class="journey__wrapper">
+            <div class="journey__card">
+                <h2>Pre-Dating</h2>
+                <p>What we do before we officially date</p>
+                <div class="journey__btn"><button onclick="document.location='https://www.youtube.com'">Let's see</button></div>
+            </div>
+            <div class="journey__card">
+                <h2>Dating</h2>
+                <p>How fun was it</p>
+                <div class="journey__btn"><button onclick="document.location='https://www.youtube.com'">Fun?</button></div>
+            </div>
+            <div class="journey__card">
+                <h2>Long Distance</h2>
+                <p>Damn, this one sucks</p>
+                <div class="journey__btn"><button>Coming Soon</button></div>
+            </div>
+            <div class="journey__card">
+                <h2>Marriage?</h2>
+                <p>Final piece for heaven</p>
+                <div class="journey__btn"><button>Coming Soon</button></div>
+            </div>
+        </div>
+       </div>
+
+       <!-- Features Section -->
+       <div class="main" id="letter">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Monthly Letter</h1>
+                <h2>Special virtual letter for you</h2>
+                <p>Try opening every 1st day of the month and hope for a new one</p>
+                <button class="main__btn"><a href="#" onclick="document.location='https://www.youtube.com'">Letter!!</a></button>
+            </div>
+            <div class="main__img-container">
+                <div class="main__img--card">
+                    <img src="IMG_3371 Copy.jpeg" alt="Photo of Benedictus Juve & Christine Wijaya" class="main__img--photo">
+                </div>
+            </div>
+        </div>
+      </div>
+     <script src="app.js"></script>
+</body>
+</html>
